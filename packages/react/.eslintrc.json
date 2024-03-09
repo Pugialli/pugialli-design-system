@@ -1,0 +1,3 @@
+{
+  "extends": "@pugialli-ui/eslint-config"
+}

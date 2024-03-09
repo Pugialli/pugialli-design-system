@@ -1,0 +1,23 @@
+{
+  "name": "@pugialli-ui/react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "keywords": [],
+  "author": "pugialli",
+  "license": "MIT",
+  "devDependencies": {
+    "@pugialli-ui/tokens": "*",
+    "@pugialli-ui/ts-config": "*",
+    "@pugialli-ui/eslint-config": "*",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}
