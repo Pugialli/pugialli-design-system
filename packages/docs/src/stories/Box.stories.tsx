@@ -8,9 +8,17 @@ export default {
   args: {
     children: (
       <>
-        <Text>Testando o elemento Box</Text>
+        <Text>Exemplo de elemento Box</Text>
       </>
     ),
+  },
+
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
   },
 } as Meta<BoxProps>
 
