@@ -22,9 +22,3 @@ export default {
 } as Meta<CheckboxProps>
 
 export const Primary: StoryObj<CheckboxProps> = {}
-
-export const Disabled: StoryObj<CheckboxProps> = {
-  args: {
-    disabled: true,
-  },
-}

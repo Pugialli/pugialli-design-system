@@ -9,7 +9,6 @@
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
     "lint": "eslint src/**/*.ts* --fix"
-   
   },
   "keywords": [],
   "author": "pugialli",

@@ -1,6 +1,7 @@
 {
   "name": "@pugialli-ui/eslint-config",
   "author": "pugialli",
+  "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "main": "index.js",
