@@ -1,5 +1,5 @@
 {
-  "name": "@pugialli-ui/docs",
+  "name": "@ejc-ui/docs",
   "version": "1.0.0",
   "author": "pugialli",
   "license": "MIT",
@@ -13,10 +13,10 @@
     "build": "storybook build"
   },
   "dependencies": {
-    "@pugialli-ui/eslint-config": "*",
-    "@pugialli-ui/react": "*",
-    "@pugialli-ui/tokens": "*",
-    "@pugialli-ui/ts-config": "*",
+    "@ejc-ui/eslint-config": "*",
+    "@ejc-ui/react": "*",
+    "@ejc-ui/tokens": "*",
+    "@ejc-ui/ts-config": "*",
     "@storybook/addon-a11y": "^7.6.17",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",

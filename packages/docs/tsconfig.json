@@ -1,4 +1,4 @@
 {
-  "extends": "@pugialli-ui/ts-config/react.json",
+  "extends": "@ejc-ui/ts-config/react.json",
   "include": ["src"],
 }

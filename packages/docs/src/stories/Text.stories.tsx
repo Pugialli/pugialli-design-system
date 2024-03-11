@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Text, TextProps } from '@pugialli-ui/react'
+import { Text, TextProps } from '@ejc-ui/react'
 
 export default {
   title: 'Typography/Text',

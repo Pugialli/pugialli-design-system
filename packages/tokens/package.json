@@ -1,6 +1,6 @@
 {
-  "name": "@pugialli-ui/tokens",
-  "version": "1.0.1",
+  "name": "@ejc-ui/tokens",
+  "version": "0.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
   "author": "pugialli",
   "license": "MIT",
   "devDependencies": {
-    "@pugialli-ui/ts-config": "*",
-    "@pugialli-ui/eslint-config": "*",
+    "@ejc-ui/ts-config": "*",
+    "@ejc-ui/eslint-config": "*",
     "tsup": "^8.0.2",
     "typescript": "^5.4.2"
   }

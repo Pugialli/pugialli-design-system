@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, TextArea, TextAreaProps } from '@pugialli-ui/react'
+import { Box, Text, TextArea, TextAreaProps } from '@ejc-ui/react'
 
 export default {
   title: 'Form/Text Area',

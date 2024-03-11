@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@pugialli-ui/tokens'
+} from '@ejc-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

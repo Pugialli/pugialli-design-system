@@ -1,6 +1,6 @@
 {
-  "name": "@pugialli-ui/react",
-  "version": "1.0.3",
+  "name": "@ejc-ui/react",
+  "version": "0.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,9 +14,9 @@
   "author": "pugialli",
   "license": "MIT",
   "devDependencies": {
-    "@pugialli-ui/eslint-config": "*",
-    "@pugialli-ui/tokens": "*",
-    "@pugialli-ui/ts-config": "*",
+    "@ejc-ui/eslint-config": "*",
+    "@ejc-ui/tokens": "*",
+    "@ejc-ui/ts-config": "*",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
     "react": "^18.2.0",

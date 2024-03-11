@@ -1,4 +1,4 @@
-import { colors } from '@pugialli-ui/tokens'
+import { colors } from '@ejc-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

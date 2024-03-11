@@ -27,7 +27,7 @@ const config: StorybookConfig = {
   },
   viteFinal: (config, {configType}) => {
     if(configType === 'PRODUCTION') {
-      config.base = '/pugialli-design-system/'
+      config.base = '/ejc-design-system/'
     }
     return config
   }
