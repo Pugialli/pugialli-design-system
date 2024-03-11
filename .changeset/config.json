@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@ejc-ui/docs"]
+  "ignore": ["@pugialli-ui/docs"]
 }

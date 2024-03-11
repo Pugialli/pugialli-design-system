@@ -1,7 +1,13 @@
-# @ejc-ui/tokens
+# @pugialli-ui/tokens
 
-## 0.0.1
+## 1.0.1
 
 ### Patch Changes
 
-- fork from pugialli-ui
+- Add new color
+
+## 1.0.0
+
+### Major Changes
+
+- Initial deploy

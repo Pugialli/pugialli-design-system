@@ -13,7 +13,6 @@ declare const colors: {
     ignite500: string;
     ignite700: string;
     ignite900: string;
-    yellow200: string;
 };
 
 declare const space: {

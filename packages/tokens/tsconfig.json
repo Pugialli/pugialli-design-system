@@ -1,4 +1,4 @@
 {
-  "extends": "@ejc-ui/ts-config/base.json",
+  "extends": "@pugialli-ui/ts-config/base.json",
   "include": ["src"],
 }

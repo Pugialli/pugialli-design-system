@@ -1,6 +1,6 @@
 {
-  "name": "@ejc-ui/ts-config",
-  "version": "1.0.0",
+  "name": "@pugialli-ui/ts-config",
+  "version": "2.0.0",
   "author": "pugialli",
   "license": "MIT",
   "private": true
