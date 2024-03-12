@@ -1,5 +1,11 @@
 # @pugialli-ui/react
 
+## 1.1.0
+
+### Minor Changes
+
+- Tooltip and Toast added
+
 ## 1.0.3
 
 ### Patch Changes
