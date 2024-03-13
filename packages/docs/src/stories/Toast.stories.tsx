@@ -4,7 +4,7 @@ import { useArgs } from '@storybook/client-api'
 import React from 'react'
 
 export default {
-  title: 'Surfaces/Toast',
+  title: 'Data display/Toast',
   component: Toast,
   args: {
     title: 'Título do Toast',

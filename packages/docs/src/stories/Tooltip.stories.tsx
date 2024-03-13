@@ -8,7 +8,7 @@ import {
 } from '@pugialli-ui/react'
 
 export default {
-  title: 'Surfaces/Tooltip',
+  title: 'Data display/Tooltip',
   component: TooltipContent,
   args: {
     content: 'Isso é um tooltip',
