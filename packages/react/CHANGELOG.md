@@ -1,5 +1,11 @@
 # @pugialli-ui/react
 
+## 1.2.0
+
+### Minor Changes
+
+- All components working
+
 ## 1.1.0
 
 ### Minor Changes

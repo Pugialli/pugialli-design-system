@@ -1,6 +1,7 @@
 import { StoryObj, Meta } from '@storybook/react'
 import {
   Box,
+  Text,
   TooltipContent,
   TooltipContentProps,
   TooltipProvider,
@@ -19,7 +20,9 @@ export default {
       return (
         <TooltipProvider>
           <TooltipTrigger>
-            <Box css={{ width: '$4', color: '$white' }}>21</Box>
+            <Box css={{ width: '$4', color: '$white' }}>
+              <Text>21</Text>
+            </Box>
           </TooltipTrigger>
           <Story />
         </TooltipProvider>
