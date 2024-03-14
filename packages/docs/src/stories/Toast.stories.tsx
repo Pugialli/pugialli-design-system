@@ -1,7 +1,7 @@
 import { StoryObj, Meta } from '@storybook/react'
 import { Button, Toast, ToastProps, ToastProvider } from '@pugialli-ui/react'
-import { useArgs } from '@storybook/client-api'
-import React from 'react'
+import { useArgs, useCallback } from '@storybook/client-api'
+import { useEffect, useRef } from 'react'
 
 export default {
   title: 'Data display/Toast',
@@ -9,45 +9,38 @@ export default {
   args: {
     title: 'Título do Toast',
     description: 'Descrição do toast',
-    open: false,
+    isOpen: false,
   },
 
   decorators: [
     (Story) => {
-      const [, updateArgs] = useArgs()
-      const [isOpen, setIsOpen] = React.useState(false)
+      const [args, updateArgs] = useArgs()
 
-      const timerRef = React.useRef(0)
+      const timerRef = useRef(0)
 
-      React.useEffect(() => {
+      const setOpen = useCallback(() => {
+        updateArgs({ isOpen: !args.isOpen })
+      }, [updateArgs, args.isOpen])
+
+      useEffect(() => {
+        updateArgs({ handleChange: setOpen })
+
         return () => clearTimeout(timerRef.current)
-      }, [])
+      }, [updateArgs, setOpen])
 
-      function setOpen(command: boolean) {
-        setIsOpen(command)
-        updateArgs({ open: command })
+      function handleClick() {
+        setOpen()
+        window.clearTimeout(timerRef.current)
+        timerRef.current = window.setTimeout(() => {
+          setOpen()
+        }, 100)
       }
 
       return (
         <ToastProvider swipeDirection="right">
-          <Button
-            onClick={() => {
-              setOpen(false)
-              window.clearTimeout(timerRef.current)
-              timerRef.current = window.setTimeout(() => {
-                setOpen(true)
-              }, 100)
-            }}
-          >
-            Ativar Toast
-          </Button>
+          <Button onClick={handleClick}>Ativar Toast</Button>
 
-          <Story
-            title="Teste"
-            description="Teste descrição"
-            handleChange={setOpen}
-            isOpen={isOpen}
-          />
+          <Story />
         </ToastProvider>
       )
     },

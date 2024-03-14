@@ -15,7 +15,7 @@ export interface ToastProps extends ComponentProps<typeof ToastContainer> {
   title: string
   description: string
   isOpen?: boolean
-  handleChange: (open: boolean) => void
+  handleChange: () => void
 }
 
 export interface ToastProviderProps
@@ -30,9 +30,6 @@ export function ToastProvider({ children, ...props }: ToastProviderProps) {
   )
 }
 
-// export const Toast = forwardRef<ElementRef<typeof ToastContainer>, ToastProps>(
-//   ({ title, description, open, ...props }: ToastProps, ref) => {},
-// )
 export function Toast({
   title,
   description,
@@ -50,7 +47,7 @@ export function Toast({
             </Text>
           </ToastTitle>
         )}
-        <ToastClose aria-label="Close">
+        <ToastClose aria-label="Close" onClick={handleChange}>
           <X size={20} aria-hidden />
         </ToastClose>
       </ToastHead>
