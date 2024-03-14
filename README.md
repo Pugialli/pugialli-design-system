@@ -9,4 +9,4 @@
 - [X] Avatar
 - [X] MultiStep
 - [X] Tooltip
-- [ ] Toast
+- [X] Toast
